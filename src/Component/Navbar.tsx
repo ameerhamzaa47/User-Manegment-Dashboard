@@ -17,7 +17,7 @@ function Navbar({ onSearch }: NavbarProps) {
       <nav className="flex flex-col md:flex-row justify-between">
         <h1 className="text-2xl font-bold mb-10 md:-my-4 mx-6 text-blue-600">USER MANAGEMENT SYSTEM</h1>
         
-        <form className="max-w-md mx-4 -my-4 w-96">
+        <form className="max-w-md mx-4 -my-4 w-80 md:w-96">
           <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
           <div className="relative">
             <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">

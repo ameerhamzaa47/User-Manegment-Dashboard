@@ -79,7 +79,7 @@ function Dashboard() {
       <div className="flex flex-col md:flex-row justify-between mx-10 my-8 space-y-10 md:space-y-0">
         <Filter onFilterChange={handleFilterChange} />
         
-        <div className="w-full md:w-4/6 mx-5 bg-white rounded-xl shadow-lg p-6">
+        <div className="w-full md:w-4/6 md:mx-5 bg-white rounded-xl shadow-lg p-6">
           <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">Dashboard</h1>
 
           <div className="overflow-x-auto">
